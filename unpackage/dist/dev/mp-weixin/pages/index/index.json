@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "留言板",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "modal": "../../components/modal/modal"
+  }
+}

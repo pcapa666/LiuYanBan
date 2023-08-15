@@ -1,0 +1,1 @@
+"use strict";const o=require("../../common/vendor.js");o.ref(!0);const e={data:()=>({show:!0,list:[{text:"ok"}]}),onLoad(){console.log(o.index.$u.config.v)}};if(!Array){o.resolveComponent("u-button")()}Math;const t=o._export_sfc(e,[["render",function(e,t,n,r,s,c){return{a:o.p({text:"月落"})}}]]);wx.createPage(t);

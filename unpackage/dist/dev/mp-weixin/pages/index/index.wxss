@@ -1,0 +1,197 @@
+.container.data-v-1cf27b2a {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.fixed-btn.data-v-1cf27b2a {
+  position: fixed;
+  bottom: 30px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #42b983;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.fixed-btn.data-v-1cf27b2a:active {
+  box-shadow: none;
+  transform: translateY(2rpx);
+  background-color: #3ba773;
+}
+.header.data-v-1cf27b2a {
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0px 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: #ccc;
+  width: 100%;
+  padding-bottom: 100rpx;
+}
+.header .navigation.data-v-1cf27b2a {
+  transform: translate(50%, 0);
+  position: fixed;
+  top: 53px;
+  right: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  background-color: #ccc;
+  justify-content: space-evenly;
+}
+.header .navigation .changeMessage.data-v-1cf27b2a {
+  font-size: 15px;
+  padding: 5px 15px;
+  border-bottom: 2px solid #ccc;
+}
+.header .navigation .yep.data-v-1cf27b2a {
+  border-bottom-color: #42b983;
+  font-weight: bold;
+}
+.header .avatar.data-v-1cf27b2a {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+.header .user-info.data-v-1cf27b2a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.header .user-info .nickname.data-v-1cf27b2a {
+  font-size: 13px;
+  font-weight: bold;
+}
+.header .user-info .nickname .sex.data-v-1cf27b2a {
+  font-size: 14px;
+}
+.main.data-v-1cf27b2a {
+  background-color: #fff;
+  top: 10rpx;
+  border-radius: 50rpx;
+  width: 100%;
+  position: fixed;
+  margin-top: 80px;
+  overflow-y: auto;
+  height: calc(100vh - 80px);
+}
+.message-list.data-v-1cf27b2a {
+  margin-top: 20px;
+}
+.message-container.data-v-1cf27b2a {
+  margin-bottom: 20px;
+}
+.message.data-v-1cf27b2a {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px 20px;
+}
+.message.data-v-1cf27b2a:active {
+  background-color: #fafafa;
+}
+.message .message-header.data-v-1cf27b2a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+.message .message-header .more.data-v-1cf27b2a {
+  position: absolute;
+  right: 0rpx;
+  top: 15rpx;
+  font-size: 50rpx;
+}
+.message .avatar.data-v-1cf27b2a {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.message .nickname.data-v-1cf27b2a {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.message .message-body.data-v-1cf27b2a {
+  margin-top: 10px;
+}
+.message .message-body .onGood.data-v-1cf27b2a {
+  color: red;
+}
+.message .message-body .onCollect.data-v-1cf27b2a {
+  color: #FFA500;
+}
+.message .message-text.data-v-1cf27b2a {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.message .message-time.data-v-1cf27b2a {
+  font-size: 14px;
+  color: #666;
+  margin-top: 30px;
+  float: left;
+}
+.message .message-right.data-v-1cf27b2a {
+  color: #666;
+  margin-top: 30px;
+  float: right;
+  font-size: 20px;
+  margin-left: 25px;
+}
+.message .message-right .right-text.data-v-1cf27b2a {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.content.data-v-1cf27b2a {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 10px 5%;
+  background-color: #ccc;
+}
+.content input.data-v-1cf27b2a {
+  margin-left: 5%;
+  border: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 18px;
+  flex: 1;
+  margin-right: 5%;
+  background-color: #dcdcdc;
+}
+.content button.data-v-1cf27b2a {
+  z-index: 999;
+  margin-right: 5%;
+  width: 100px;
+  height: 40px;
+  background-color: #42b983;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.content button.data-v-1cf27b2a:hover {
+  background-color: #36a974;
+}
